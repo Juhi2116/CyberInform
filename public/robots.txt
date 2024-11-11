@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+        <img src="../logo.svg" alt="Cyberinfomines Logo" className="mx-auto mb-4 w-24" />
+
+                <img src="../Frame 39568.png" alt="Cyberinfomines Banner" className="mx-auto my-4 w-3/4" />
+
