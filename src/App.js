@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import ProtectedRoute from './Components/ProtectedRoute';
 import Language from './Components/Language';
+import InterviewInterface from './Components/Interview';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </Routes>
       </Router>
       <Language/>
+      <InterviewInterface/>
     </div>
   );
 }

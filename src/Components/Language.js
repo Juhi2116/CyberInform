@@ -51,9 +51,61 @@ function Language() {
             <p>Build skills-based coding tests with tech problems a developer would encounter on the job—and hire the team behind your next big idea.</p>
             <button className="text-blue-600 hover:underline">Request a Demo</button>
           </div>
+          
+
+
+          
         </div>
+    
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-6xl mx-auto h-screen p-4">
+  {/* Left Section */}
+  <div className="flex flex-col justify-center bg-white p-8">
+    <h1 className="text-4xl md:text-6xl font-light text-gray-800 mb-4 leading-tight">
+      Identify top <span className="text-blue-500">contenders</span>
+    </h1>
+    <p className="text-base md:text-lg text-gray-500 mb-6">
+      Identify top contenders and invite them to meet your team using data-driven decisions
+      that help level the playing field for developers everywhere.
+    </p>
+    <a href="#" className="text-lg font-semibold hover:underline text-blue-500">
+      Learn More →
+    </a>
+  </div>
+
+  {/* Right Section */}
+  <div className="flex items-center justify-center bg-white">
+    <img
+      src="../summary.png"
+      alt="Placeholder"
+      className="object-cover rounded-lg shadow-xl"
+    />
+  </div>
+
+
+        
+        {/* <div className='grid grid-cols-2 gap-4 w-96'>
+        <div className="grid grid-rows-2 h-screen bg-gray-100 p-8">
+        <h1 className="text-4xl md:text-6xl font-light text-gray-800 mb-4">
+        Identify top 
+        <span className='text-blue-500'> contenders</span></h1>
+        <p className="text-base md:text-lg text-gray-500 w-full px-4 md:px-8 mx-auto">
+        Identify top contenders and invite them to meet your team using data-driven decisions
+      that help level the playing field for developers everywhere.</p>
+
+
+      <a href="#" className="text-lg font-semibold hover:underline text-blue-500">
+          Learn More →
+        </a>
+
+        </div>
+    <div>
+      image
+    </div>
+    </div> */}
+    
 
       </div>
+    </div>
     </div>
   );
 }
