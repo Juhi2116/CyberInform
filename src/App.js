@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar';
 import ProtectedRoute from './Components/ProtectedRoute';
 import Language from './Components/Language';
 import InterviewInterface from './Components/Interview';
+import Practice from './Components/Practice';
 
 function App() {
   return (
@@ -22,8 +23,7 @@ function App() {
           {/* <Route path="/dashboard" element={<ProtectedRoute element={Dashboard} />} /> */}
         </Routes>
       </Router>
-      <Language/>
-      <InterviewInterface/>
+     
     </div>
   );
 }
