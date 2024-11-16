@@ -36,9 +36,9 @@ const Home = () => {
       </div>
 
       {/* Course Section */}
-      <section className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-4 py-12 space-y-8 md:space-y-0">
+      <section className="flex flex-col md:flex-row items-center justify-between max-w-7xl  p-6 md:p-12">
         {/* Left Section with the Complete Image */}
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2 flex justify-center ">
           <img
             src="../Course.png"
             alt="Course Overview"
