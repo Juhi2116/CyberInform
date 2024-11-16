@@ -2,6 +2,7 @@ import React from 'react';
 import Language from '../Components/Language';
 import InterviewInterface from '../Components/Interview';
 import Practice from '../Components/Practice';
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
@@ -98,6 +99,8 @@ const Home = () => {
       <Language />
       <InterviewInterface />
       <Practice />
+      <div className="bg-blue-600">   <Footer/></div>
+   
     </div>
   );
 }
