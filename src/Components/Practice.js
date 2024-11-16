@@ -19,7 +19,7 @@ const Practice = () => {
       {/* Right Side */}
       <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:w-2/3">
         <h2 className="text-2xl sm:text-3xl font-bold tracking-wide">
-          Get started <span className="text-blue-500 tracking-wide">hiring with <br /> Cyberinfomines</span>
+          Get started <span className="text-blue-500 tracking-wide">hiring with Cyberinfomines</span>
         </h2>
         <p className="text-sm sm:text-base text-gray-600">
           More than 3,000 tech teams, representing all industries and from countries around the world, trust us.

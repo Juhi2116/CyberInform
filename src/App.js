@@ -9,6 +9,7 @@ import ProtectedRoute from './Components/ProtectedRoute';
 import Language from './Components/Language';
 import InterviewInterface from './Components/Interview';
 import Practice from './Components/Practice';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           {/* <Route path="/" element={<ProtectedRoute element={<Home/>} />} /> */}
           {/* <Route path="/dashboard" element={<ProtectedRoute element={Dashboard} />} /> */}
         </Routes>
+        <Footer/>
       </Router>
      
     </div>

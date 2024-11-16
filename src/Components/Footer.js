@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-blue-600 text-white py-8">
       {/* Main Footer Content */}
-      <div className="max-w-[1170px] mx-auto px-4 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-6">
         {/* Logo Section */}
         <div>
           <div className="flex flex-col items-center md:items-start">
@@ -124,7 +124,7 @@ const Footer = () => {
 
       {/* Footer Bottom Section */}
       <div className="border-t border-white mt-8 pt-4">
-        <div className="max-w-[1170px] mx-auto px-4 md:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
           {/* Left Section */}
           <p className="text-sm text-center md:text-left">
             &copy; 2024 Cyberinfomines Technology. All Rights Reserved
