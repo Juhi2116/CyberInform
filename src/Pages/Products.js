@@ -39,9 +39,9 @@ const Products = () => {
         </div>
       </div>
       <Logo/>
-      <div className="flex justify-center bg-gray-900 max-w-7xl m-auto py-5 md:flex-row md:py-20 px-4 sm:px-8">
+      <div className="flex justify-center bg-white max-w-7xl m-auto py-5 md:flex-row md:py-20 px-4 sm:px-8">
           <img
-            src="../interview.png" // Replace this with the actual path to your image
+            src="../screen.png" // Replace this with the actual path to your image
             alt="Code editor screenshot"
             className="max-w-full h-auto rounded-lg shadow-lg"
           />
