@@ -1,8 +1,6 @@
 import React from "react";
-import Language from "../Components/Language";
-import InterviewInterface from "../Components/Interview";
-import Practice from "../Components/Practice";
-import Footer from "../Components/Footer";
+import Logo from '../Components/Logo';
+
 
 const Home = () => {
   return (
@@ -27,35 +25,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Logo Section */}
-      <div className="flex flex-wrap items-center justify-center gap-5 lg:gap-16 mb-12 px-4 max-w-7xl mx-auto">
-        <img
-          src="../uber.png"
-          alt="Logo 1"
-          className="w-20 h-12 sm:w-32 sm:h-16 md:w-40 md:h-24 object-contain"
-        />
-        <img
-          src="../meta.png"
-          alt="Logo 2"
-          className="w-20 h-12 sm:w-32 sm:h-16 md:w-40 md:h-24 object-contain"
-        />
-        <img
-          src="../instacart.png"
-          alt="Logo 3"
-          className="w-20 h-12 sm:w-32 sm:h-16 md:w-40 md:h-24 object-contain"
-        />
-        <img
-          src="../greenhouse.png"
-          alt="Logo 4"
-          className="w-20 h-12 sm:w-32 sm:h-16 md:w-40 md:h-24 object-contain"
-        />
-        <img
-          src="../gusto.png"
-          alt="Logo 5"
-          className="w-20 h-12 sm:w-32 sm:h-16 md:w-40 md:h-24 object-contain"
-        />
-      </div>
-
+<Logo/>
       {/* Course Section */}
       <section className="flex flex-col md:flex-row items-center justify-between max-w-7xl  p-6 md:p-12">
         {/* Left Section with the Complete Image */}
