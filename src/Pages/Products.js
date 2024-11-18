@@ -46,8 +46,76 @@ const Products = () => {
             className="max-w-full h-auto rounded-lg shadow-lg"
           />
         </div>
-        
 
+
+
+
+                {/* fairness built */}
+
+ 
+    <div className="bg-blue-600 text-white py-10 mb-60 relative rounded-xl">
+      <div className="container mx-auto px-4 text-center relative z-10">
+        {/* Header Section */}
+        <h1 className="text-4xl font-bold">Fairness built into every click.</h1>
+        <p className="text-lg mt-4">
+          From plagiarism detection and proctoring to minimizing bias, our
+          assessments give developers everywhere an equal shot at today’s top
+          tech opportunities.
+        </p>
+        <button className="bg-white text-blue-600 font-semibold py-2 px-6 mt-6 rounded-lg hover:bg-gray-100 transition duration-300">
+          Get demo
+        </button>
+      </div>
+
+      {/* Cards Section */}
+      <div className="relative mt-10 ml-10 mr-10 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto px-4 absolute w-full left-0 -bottom-18">
+          {[...Array(3)].map((_, index) => (
+            <div
+              key={index}
+              className="bg-white text-black rounded-lg shadow-lg p-6"
+            >
+              <div className="flex items-center justify-center mb-4">
+                <div className="w-10 h-30 flex justify-center items-center text-blue-600">
+                  <svg
+                    className="w-10 h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-.283 1.036-.698 2.018-1.223 2.92M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <h2 className="text-lg font-semibold text-center">
+                World-class plagiarism monitoring
+              </h2>
+              <p className="text-sm text-gray-700 mt-2 text-center">
+                Advanced machine learning monitors for plagiarism, test-taker
+                integrity, and question leaks, giving all developers a fairer
+                shot at the next round.
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+
+
+
+        
         <div className="flex items-center justify-center mb-4  bg-gray-100">
         <div className="text-center p-12">
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-gray-800">
@@ -130,6 +198,116 @@ const Products = () => {
               />
             </div>
 </div>
+                  {/* Resources */}
+
+
+
+
+
+
+                  <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
+  {/* Section Title */}
+  <div className="text-center">
+    <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+      Resources
+    </h1>
+    <p className="mt-4 text-gray-500">
+      Explore our guides, reports, and resources to help you hire better.
+    </p>
+  </div>
+
+  {/* Responsive Grid */}
+  <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    {/* Card 1 */}
+    <div className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <img
+        src="../r1.png" // Replace with actual image URL
+        alt="2024 Developer Skills Report"
+        className="w-full h-48 object-cover rounded-t-lg"
+        loading="lazy"
+      />
+      <div className="p-4">
+        <h2 className="text-lg font-semibold text-gray-800 truncate">
+          2024 Developer Skills Report
+        </h2>
+        <a
+          href="#"
+          className="text-blue-600 font-medium text-sm mt-3 block hover:underline"
+        >
+          READ NOW
+        </a>
+      </div>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <img
+        src="../r2.png" // Replace with actual image URL
+        alt="How to Hire Data Scientists"
+        className="w-full h-48 object-cover rounded-t-lg"
+        loading="lazy"
+      />
+      <div className="p-4">
+        <h2 className="text-lg font-semibold text-gray-800 truncate">
+          How to Hire Data Scientists: The Definitive Guide
+        </h2>
+        <a
+          href="#"
+          className="text-blue-600 font-medium text-sm mt-3 block hover:underline"
+        >
+          READ NOW
+        </a>
+      </div>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <img
+        src="../r3.png" // Replace with actual image URL
+        alt="How to Hire Cloud Engineers"
+        className="w-full h-48 object-cover rounded-t-lg"
+        loading="lazy"
+      />
+      <div className="p-4">
+        <h2 className="text-lg font-semibold text-gray-800 truncate">
+          How to Hire Cloud Engineers: The Definitive Guide
+        </h2>
+        <a
+          href="#"
+          className="text-blue-600 font-medium text-sm mt-3 block hover:underline"
+        >
+          READ NOW
+        </a>
+      </div>
+    </div>
+
+    {/* Card 4 */}
+    <div className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <img
+        src="../r4.png" // Replace with actual image URL
+        alt="How to Hire Back-End Developers"
+        className="w-full h-48 object-cover rounded-t-lg"
+        loading="lazy"
+      />
+      <div className="p-4">
+        <h2 className="text-lg font-semibold text-gray-800 truncate">
+          How to Hire Back-End Developers: The Definitive Guide
+        </h2>
+        <a
+          href="#"
+          className="text-blue-600 font-medium text-sm mt-3 block hover:underline"
+        >
+          READ NOW
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
     </div>
   );
 };
