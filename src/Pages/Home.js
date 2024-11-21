@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from '../Components/Logo';
+import Testimonial from "../Components/Testimonial";
+import FeatureSection from "../Components/FeatureSection";
 
 
 const Home = () => {
@@ -39,7 +41,7 @@ const Home = () => {
 
         {/* Right Section with Text */}
         <div className="md:w-1/2 text-center md:text-left space-y-4 py-5">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl ">
             Watch Our Courses
           </h1>
           <p className="text-base sm:text-lg text-gray-600">
@@ -71,6 +73,7 @@ const Home = () => {
         </p>
       </div>
 
+<FeatureSection/>
       {/* Coding Practice Section */}
       <div className="bg-blue-600 p-8 md:p-16 rounded-lg flex flex-col md:flex-row items-center max-w-7xl mx-auto text-white space-y-8 md:space-y-0">
         {/* Left Section with Text */}
@@ -234,6 +237,7 @@ const Home = () => {
           />
         </div>
       </div>
+      <Testimonial/>
       <div className="flex flex-col md:flex-row justify-between items-center bg-white text-black max-w-7xl m-auto py-10">
         {/* Left Side */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:w-2/3">
@@ -266,6 +270,8 @@ const Home = () => {
           </button>
         </div>
       </div>
+
+     
     </div>
   );
 };

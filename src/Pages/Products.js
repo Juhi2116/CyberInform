@@ -3,9 +3,9 @@ import Logo from '../Components/Logo';
 
 const Products = () => {
   return (
-    <div className="bg-white max-w-7xl mx-auto py-5 md:py-20 px-4 sm:px-8">
+    <div className="bg-white">
       {/* Section Wrapper */}
-      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto  px-4 sm:px-8">
         {/* Text Section */}
         <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
@@ -41,7 +41,7 @@ const Products = () => {
 
       <Logo />
 
-      <div className="flex justify-center bg-white max-w-7xl mx-auto py-5 md:py-20 px-4 sm:px-8">
+      <div className="flex justify-center max-w-7xl mx-auto py-5 md:py-20 px-4 sm:px-8">
         <img
           src="../screen.png" // Replace this with the actual path to your image
           alt="Code editor screenshot"
@@ -50,7 +50,7 @@ const Products = () => {
       </div>
 
       {/* Fairness Built Section */}
-      <div className="bg-blue-600 text-white py-10 relative rounded-xl">
+      <div className="bg-blue-600 text-white py-10 relative rounded-xl max-w-7xl mx-auto px-4 sm:px-8">
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-3xl md:text-4xl font-bold">
             Fairness built into every click.
@@ -111,8 +111,8 @@ const Products = () => {
       </div>
 
       {/* Innovation Section */}
-      <div className="flex items-center justify-center bg-gray-100">
-        <div className="text-center p-12">
+      <div className="flex items-center max-w-full justify-center bg-gray-100 mt-5">
+        <div className="text-center p-12 max-w-7xl">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-gray-800">
             Innovation happens everywhere.
           </h1>
@@ -129,7 +129,7 @@ const Products = () => {
       </div>
 
       {/* Easy to Use Section */}
-      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto px-4 sm:px-8">
         <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-blue-600 mb-4">
             Easy to use.{" "}
@@ -151,7 +151,7 @@ const Products = () => {
       </div>
 
       {/* Find Skills Section */}
-      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto   px-4 sm:px-8">
         <div className="w-full md:w-1/2">
           <img
             src="../Frame3.png"
@@ -173,7 +173,7 @@ const Products = () => {
       </div>
 
       {/* University Hiring Section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-12 max-w-7xl mx-auto  px-4 sm:px-8">
         <div className="flex flex-col justify-center text-center md:text-left space-y-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-4">
             University hiring and early talent screening built to scale.
@@ -194,7 +194,7 @@ const Products = () => {
       </div>
 
       {/* Resources Section */}
-      <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <div className="bg-white max-w-7xl mx-auto py-5  px-4 sm:px-8">
         <div className="text-center">
           <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Resources

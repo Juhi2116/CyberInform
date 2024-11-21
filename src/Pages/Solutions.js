@@ -63,21 +63,21 @@ const Solutions = () => {
                             <img
                                 src="../Mask2.png"
                                 alt="Lightbulb 1"
-                                className="rounded-xl w-full object-cover"
+                                className="rounded-xl w-full object-cover h-[150px]"
                             />
                         </div>
                         <div className="col-span-1">
                             <img
                                 src="../Mask3.png"
                                 alt="Lightbulb 2"
-                                className="rounded-xl w-full object-cover"
+                                className="rounded-xl w-full object-cover h-[150px]"
                             />
                         </div>
                         <div className="col-span-2">
                             <img
                                 src="../Mask4.png"
                                 alt="Idea and Team Discussion"
-                                className="rounded-xl w-full object-cover"
+                                className="rounded-xl w-full object-cover h-[150px]"
                             />
                         </div>
                     </div>
@@ -103,22 +103,25 @@ const Solutions = () => {
             {/* Artist & Investor Section */}
             <div className="flex flex-col md:flex-row items-center justify-between p-4 md:p-8 bg-white">
                 {/* Text Section */}
-                <div className="md:w-1/2 h-auto p-4 bg-gray-100 rounded-lg">
-                    <h3 className="text-gray-700 font-bold text-lg md:text-xl">ARTIST & INVESTOR</h3>
-                    <p className="mt-2 text-gray-600 text-sm md:text-base">
-                        Enim sagittis, sit porttitor morbi lobortis amet, libero adipiscing auctor.
-                        Malesuada tristique libero, id netus tincidunt. Egestas ac arcu amet nisl quis est ...
-                    </p>
-                    <a
-                        href="#"
-                        className="mt-4 inline-block text-blue-600 font-semibold hover:underline"
-                    >
-                        Read Full Story →
-                    </a>
+                <div className="md:w-3/5 max-w-4xl p-6  bg-gray-100 rounded-lg  h-auto ">
+                    <div className='p-10  max-w-xl'>
+                        <h3 className="text-gray-700 font-bold text-lg md:text-xl mt-auto">ARTIST & INVESTOR</h3>
+                        <p className="mt-2 text-gray-600 text-sm md:text-base">
+                            Enim sagittis, sit porttitor morbi lobortis amet, libero adipiscing auctor.
+                            Malesuada tristique libero, id netus tincidunt. Egestas ac arcu amet nisl quis est ...
+                        </p>
+                        <a
+                            href="#"
+                            className="mt-4 inline-block text-blue-600 font-semibold hover:underline"
+                        >
+                            Read Full Story →
+                        </a>
+                    </div>
                 </div>
 
+
                 {/* Image Section */}
-                <div className="md:w-1/2 mt-6 md:mt-0 p-4">
+                <div className="md:w-2/5 mt-6 md:mt-0 p-4">
                     <img
                         src="../Picture.png" // Replace with the actual image URL
                         alt="A small plant growing"
@@ -135,10 +138,52 @@ const Solutions = () => {
                 <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
                     Sed ut vestibulum eget purus ornare. Risus elit et fringilla habitant ut facilisi.
                 </p>
+                <button className="bg-blue-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-md text-base md:text-lg hover:bg-blue-700 transition-all mt-6">
+                    View courses
+                </button>
             </div>
 
 
-    
+            <div className="bg-gray-100 rounded-lg max-w-full">
+                <div className="container mx-auto p-6">
+                    {/* Image and Text Row */}
+                    <div className="lg:flex lg:space-x-6 max-w-5xl m-auto items-stretch">
+                        {/* Left Side - Text */}
+                        <div className="lg:w-1/2 flex flex-col justify-between rounded-xl p-6 lg:p-8 ">
+                            <div>
+                                <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-4">
+                                    Easily brainstorm with your team
+                                </h1>
+                                <p className="text-sm md:text-lg mb-6">
+                                    Scelerisque auctor dolor diam tortor, fames faucibus non interdum
+                                    nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie
+                                    adipiscing lacinia.
+                                </p>
+                            </div>
+                            <div>
+                                <button className="bg-white text-blue-500 px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold hover:bg-gray-100 mb-5">
+                                    Start for Free
+                                </button>
+                            </div>
+                            <img
+                                src="../Group 338.png"
+                                alt="Brainstorming team"
+                                className="rounded-xl w-fit h-fit object-cover"
+                            />
+                        </div>
+
+                        {/* Right Side - Image */}
+                        <div className="lg:w-1/2">
+                            <img
+                                src="../Group 339.png"
+                                alt="Brainstorming team"
+                                className="rounded-xl w-full h-full object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
 
 
