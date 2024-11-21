@@ -66,7 +66,7 @@ function SignIn() {
                 Forgot Your Password?
               </Link>
             </div>
-            <div   className="mt-2 w-fit px-2 py-2 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            <div   className="mt-2 w-fit pl-4 pr-4 px-2 py-2  text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
             <Link
               to="/login"
@@ -83,11 +83,11 @@ function SignIn() {
           </div>
           
           <div className="flex items-center justify-center space-x-4">
-            <button className="flex items-center justify-center w-10 h-10 bg-gray-8 border border-gray-300 rounded-lg">
-              <img src="../img.png" alt="x Logo" className="w-10 h-10"/>
+          <button className="flex items-center justify-center w-16 h-16  border-gray-300 rounded-lg">
+              <img src="../img.png" alt="x Logo" className="w-16 h-16"/>
             </button>
-            <button className="flex items-center justify-center w-10 h-10 bg-gray-10 border border-gray-300 rounded-lg">
-              <img src="../img1.png" alt="Google Logo" className="w-6 h-6"/>
+            <button className="flex items-center justify-center w-16 h-16  border-gray-300 rounded-lg">
+              <img src="../img1.png" alt="Google Logo" className="w-16 h-16"/>
             </button>
           </div>
           
