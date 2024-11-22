@@ -70,14 +70,23 @@ function SignUpPage() {
               By creating an account, you agree to the <a href="#" className="text-blue-600">Terms of use</a> and <a href="#" className="text-blue-600">Privacy Policy</a>.
             </p>
 
+         
+            <div className="flex items-center space-x-4">
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="p-4 bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               Create An Account
             </button>
+            <button className="flex items-center justify-center w-16 h-16  border-gray-300 rounded-lg">
+              <img src="../img.png" alt="x Logo" className="w-16 h-16"/>
+            </button>
+            <button className="flex items-center justify-center w-16 h-16  border-gray-300 rounded-lg">
+              <img src="../img1.png" alt="Google Logo" className="w-16 h-16"/>
+            </button>
+          </div>
 
-            <p className="text-center text-gray-700 mt-4">
+            <p className=" text-xs text-gray-700 mt-4">
              Already Have a Account? <a href="#" className="text-blue-600">Sign In</a>
             </p>
           </form>

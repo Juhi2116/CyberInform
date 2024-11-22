@@ -50,7 +50,7 @@ const Products = () => {
       </div>
 
       {/* Fairness Built Section */}
-      <div className="bg-blue-600 text-white py-10 relative rounded-xl max-w-7xl mx-auto px-4 sm:px-8">
+      <div className="bg-blue-600 text-white py-10 relative rounded-xl mb-40 max-w-7xl mx-auto px-4 sm:px-8">
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-3xl md:text-4xl font-bold">
             Fairness built into every click.
@@ -66,34 +66,34 @@ const Products = () => {
         </div>
 
         {/* Cards Section */}
-        <div className="relative mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 container mx-auto px-4">
-            {[...Array(3)].map((_, index) => (
-              <div
-                key={index}
-                className="bg-white text-black rounded-lg shadow-lg p-6"
-              >
-                <div className="flex items-center justify-center mb-4">
-                  <div className="w-10 h-10 flex justify-center items-center text-blue-600">
-                    <svg
-                      className="w-10 h-10"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      ></path>
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-.283 1.036-.698 2.018-1.223 2.92M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      ></path>
-                    </svg>
+      <div className="relative mt-10 ml-10 mr-10 mb-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto px-4 absolute w-full left-0 -bottom-18">
+          {[...Array(3)].map((_, index) => (
+            <div
+              key={index}
+              className="bg-white text-black rounded-lg shadow-lg p-6"
+            >
+              <div className="flex items-center justify-center mb-4">
+                <div className="w-10 h-30 flex justify-center items-center text-blue-600">
+                  <svg
+                    className="w-10 h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-.283 1.036-.698 2.018-1.223 2.92M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
                   </div>
                 </div>
                 <h2 className="text-lg font-semibold text-center">
@@ -109,6 +109,12 @@ const Products = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
+
 
       {/* Innovation Section */}
       <div className="flex items-center max-w-full justify-center bg-gray-100 mt-5">
