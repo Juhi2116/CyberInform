@@ -24,7 +24,7 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import { Link } from 'react-router-dom'
 const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
+  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '/products', icon: ChartPieIcon },
   { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
   { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
@@ -41,10 +41,10 @@ export default function Navbar() {
   return (
 
 
-    <header className="bg-white header">
+    <header className="bg-white mb-2">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 mx-w-7xl  h-[100px] p-[12px_30px] gap-[10px] rounded-[10px]  shadow-[0px_0px_15px_0px_rgba(0,0,0,0.2)]">
         <div className="flex lg:flex-1">
-          <Link to="#" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img alt="" src="logo.svg" className="h-20 w-20" />
           </Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
               </div>
             </PopoverPanel>
           </Popover>
-          <a href="#" className="text-sm font-semibold text-gray-900">Solutions</a>
+          <a href="/solutions" className="text-sm font-semibold text-gray-900">Solutions</a>
           <a href="#" className="text-sm font-semibold text-gray-900">Pricing</a>
           <a href="#" className="text-sm font-semibold text-gray-900">Resources</a>
         </PopoverGroup>
