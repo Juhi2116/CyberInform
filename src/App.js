@@ -9,6 +9,7 @@ import Products from './Pages/Products';
 import ContactUs from './Pages/ContactUs';
 import Solutions from './Pages/Solutions';
 import Interview from './Pages/Interview';
+import PricingPage from './Pages/Pricing';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/products/interview" element={<Interview />} />
           <Route path="/solutions" element={<Solutions />} />
+          <Route path="/pricing" element={<PricingPage />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<SignIn />} />
