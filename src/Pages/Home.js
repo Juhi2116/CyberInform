@@ -29,9 +29,9 @@ const Home = () => {
 
 <Logo/>
       {/* Course Section */}
-      <section className="flex flex-col md:flex-row items-center justify-between max-w-7xl  p-6 md:p-12">
+      <section className="flex flex-col md:flex-row items-center justify-between max-w-7xl  p-6 md:p-12 m-auto">
         {/* Left Section with the Complete Image */}
-        <div className="md:w-1/2 flex justify-center ">
+        <div className=" flex justify-center ">
           <img
             src="../Course.png"
             alt="Course Overview"
@@ -73,7 +73,7 @@ const Home = () => {
         </p>
       </div>
 
-<FeatureSection/>
+{/* <FeatureSection/> */}
       {/* Coding Practice Section */}
       <div className="bg-blue-600 p-8 md:p-16 rounded-lg flex flex-col md:flex-row items-center max-w-7xl mx-auto text-white space-y-8 md:space-y-0">
         {/* Left Section with Text */}

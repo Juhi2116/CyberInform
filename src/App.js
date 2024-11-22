@@ -12,7 +12,7 @@ import Solutions from './Pages/Solutions';
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <Router>
         <Navbar/>
         <Routes>

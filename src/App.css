@@ -10,3 +10,13 @@
   font-family: 'Inter', sans-serif;
   
 }
+.header{
+  width: Fixed (1,170px)px;
+height: Hug (100px)px;
+padding: 12px 30px 12px 30px;
+gap: 10px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+box-shadow: 0px 0px 15px 0px #00000033;
+
+}
