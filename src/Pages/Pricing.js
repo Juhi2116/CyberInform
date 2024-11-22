@@ -126,8 +126,6 @@ const PricingPage = () => {
                 </div>
             </div>
             <div className="flex flex-col md:flex-row justify-between items-center bg-gray-50  text-black max-w-7xl m-auto py-10">
-
-
                 <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:w-2/3">
                     <h2 className="text-2xl sm:text-3xl font-bold">
                         Practice coding challenges &{" "}
