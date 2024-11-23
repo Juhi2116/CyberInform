@@ -10,6 +10,7 @@ import ContactUs from './Pages/ContactUs';
 import Solutions from './Pages/Solutions';
 import Interview from './Pages/Interview';
 import PricingPage from './Pages/Pricing';
+import Partner from './Pages/Partner';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/interview" element={<Interview />} />
+          <Route path="/resource/partner" element={<Partner />} />
+
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/contact" element={<ContactUs />} />
