@@ -1,22 +1,28 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { authAPI } from '../api/authAPI';
+
 function SignIn() {
   const navigate = useNavigate();
 
-  const handleLogin = (e) => {
-    e.preventDefault(); 
-    const username = document.getElementById("username").value;
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    // const username = document.getElementById("username").value;
+    const email = document.getElementById("username").value;
     const password = document.getElementById("password").value;
+    const credentials = { email, password };
+    console.log("Login form submitted");
 
-    
-    if (password === "password") {
-      // Save a token in localStorage to indicate the user is logged in
-      // localStorage.setItem("authToken", "sampleAuthToken");
-      // Redirect to the profile page after login
+    console.log(credentials);
+
+
+    try {
+      const response = await authAPI.login(credentials);
+      localStorage.setItem('token', response.accessToken); // Save token to localStorage
       navigate("/");
-    } else {
-      alert("Invalid username or password");
+    } catch (err) {
+      alert(err.message);
     }
   };
 
@@ -44,11 +50,12 @@ function SignIn() {
               <input
                 type="text"
                 id="username"
+                required={true}
                 placeholder="User name or email address"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
             </div>
-            
+
             <div>
               <label htmlFor="password" className="sr-only">
                 Password
@@ -56,6 +63,7 @@ function SignIn() {
               <input
                 type="password"
                 id="password"
+                required={true}
                 placeholder="Password"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
@@ -66,14 +74,18 @@ function SignIn() {
                 Forgot Your Password?
               </Link>
             </div>
-            <div   className="mt-2 w-fit pl-4 pr-4 px-2 py-2  text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            >
-            <Link
-              to="/login"
+            {/*<button type="submit"*/}
+            {/*        className="mt-2 w-fit pl-4 pr-4 px-2 py-2  text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">*/}
+            {/*  Sign In*/}
+            {/*</button>*/}
+
+            {/*alternative button*/}
+            <button
+                type="submit"
+                className="mt-2 w-full px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
               Sign In
-            </Link>
-            </div>
+            </button>
           </form>
           
           <div className="flex items-center justify-center space-x-4">
@@ -81,7 +93,7 @@ function SignIn() {
             <span className="text-gray-500">OR</span>
             <span className="w-full h-px bg-gray-300"></span>
           </div>
-          
+
           <div className="flex items-center justify-center space-x-4">
           <button className="flex items-center justify-center w-16 h-16  border-gray-300 rounded-lg">
               <img src="../img.png" alt="x Logo" className="w-16 h-16"/>
@@ -90,7 +102,7 @@ function SignIn() {
               <img src="../img1.png" alt="Google Logo" className="w-16 h-16"/>
             </button>
           </div>
-          
+
           <div className="text-center">
             <span className="text-sm text-gray-600">Don’t Have an Account? </span>
             <Link to="/signup" className="text-sm text-blue-500 hover:underline">
