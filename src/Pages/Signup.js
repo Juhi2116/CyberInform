@@ -1,7 +1,37 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
+import {authAPI} from "../api/authAPI";
 
 function SignUpPage() {
+
+  const navigate = useNavigate();
+
+
+  const handleSignup = async (e) => {
+    e.preventDefault();
+    // const username = document.getElementById("username").value;
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const userData = { name, email, password };
+    console.log("Login form submitted");
+
+    console.log(userData);
+
+
+    try {
+      const response = await authAPI.signup(userData);
+      if(response.success = "true"){
+              alert('Signup successful. Please login to continue.');
+                // Redirect to login page
+                navigate('/login');
+        }else{
+            alert('Signup failed. Please try again.');
+      }
+    } catch (err) {
+      alert(err.message);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-blue-600 flex justify-center items-center">
@@ -18,12 +48,13 @@ function SignUpPage() {
         {/* Right side: Sign-up form */}
         <div className="w-1/2 p-8">
           <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
-          <form>
+          <form onSubmit={handleSignup}>
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700">Name</label>
               <input
                 type="text"
                 id="name"
+                required={true}
                 className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
               />
             </div>
@@ -33,6 +64,7 @@ function SignUpPage() {
               <input
                 type="email"
                 id="email"
+                required={true}
                 className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
               />
             </div>
@@ -42,6 +74,7 @@ function SignUpPage() {
               <input
                 type="text"
                 id="userId"
+                required={true}
                 className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
               />
             </div>
@@ -51,6 +84,7 @@ function SignUpPage() {
               <input
                 type="password"
                 id="password"
+                required={true}
                 className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
               />
               <p className="text-xs text-gray-600 mt-1">
@@ -78,6 +112,7 @@ function SignUpPage() {
             >
               Create An Account
             </button>
+
             <button className="flex items-center justify-center w-16 h-16  border-gray-300 rounded-lg">
               <img src="../img.png" alt="x Logo" className="w-16 h-16"/>
             </button>
