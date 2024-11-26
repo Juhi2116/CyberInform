@@ -12,6 +12,7 @@ import Interview from './Pages/Interview';
 import PricingPage from './Pages/Pricing';
 import Partner from './Pages/Partner';
 import Releases from './Pages/Releases';
+import Resourcelib from './Pages/Resourcelib';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/interview" element={<Interview />} />
+          <Route path="/resource/library" element={<Resourcelib />} />
+
           <Route path="/resource/partner" element={<Partner />} />
           <Route path="/releases" element={<Releases />} />
 
