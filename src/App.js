@@ -11,6 +11,7 @@ import Solutions from './Pages/Solutions';
 import Interview from './Pages/Interview';
 import PricingPage from './Pages/Pricing';
 import Partner from './Pages/Partner';
+import Releases from './Pages/Releases';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/products/interview" element={<Interview />} />
           <Route path="/resource/partner" element={<Partner />} />
+          <Route path="/releases" element={<Releases />} />
 
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/pricing" element={<PricingPage />} />
