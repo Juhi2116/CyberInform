@@ -1,1 +1,1 @@
-export const API_BASE_URL = process.env.API_BASE_URL || 'https://codingplatform.cometwave.me/';
+export const API_BASE_URL = process.env.API_BASE_URL || 'https://codingplatform.cometwave.me/api';
