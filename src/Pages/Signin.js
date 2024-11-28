@@ -20,7 +20,7 @@ function SignIn() {
     try {
       const response = await authAPI.login(credentials);
       localStorage.setItem('token', response.accessToken); // Save token to localStorage
-      navigate("/");
+      navigate(-1);
     } catch (err) {
       alert(err.message);
     }
