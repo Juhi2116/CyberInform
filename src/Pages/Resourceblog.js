@@ -5,9 +5,9 @@ const Resourceblog = () => {
     <div className="bg-white py-12">
 
       {/* Featured Post Section */}
-      <section className="container m-w-7xl mx-auto px-6 lg:px-20 space-y-12 lg:flex lg:space-x-12">
+      <section className="container max-w-7xl mx-auto px-6 lg:px-20 space-y-12 lg:flex lg:space-x-12">
         {/* Left Side (Text) */}
-        <div className="lg:w-2/3 space-y-6 text-center lg:text-left">
+        <div className="lg:w-2/3 space-y-6 text-center  max-w-7xl lg:text-left">
           <p className="text-xl font-semibold text-gray-800">Featured Post</p>
           <h2 className="text-3xl lg:text-5xl font-semibold text-gray-800">
             Step-by-step guide to choosing great font pairs
@@ -15,7 +15,7 @@ const Resourceblog = () => {
           <p className="text-lg text-gray-600">
             Talent pool? Try talent ocean. We help navigate that sea of applicants so you can connect faster and hire developers with the skills your team needs to innovate.
           </p>
-          <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+          <button className="bg-blue-500 text-white px-6 py-3 max-w-7xl rounded-lg hover:bg-blue-600 transition duration-300">
             Read More
           </button>
         </div>
@@ -59,9 +59,6 @@ const Resourceblog = () => {
           <div className="md:w-3/4 md:pl-6 mt-6 md:mt-0"> <p className="text-blue-600 mt-8 text-xl font-semibold">Startup</p> 
           <h1 className="text-2xl font-bold mt-2"> Logo design trends to avoid in 2025 </h1> <p className="text-gray-600 mt-4"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p> </div> </div> </div>
 
-
-
-
           <div className="max-w-7xl mx-auto p-6   ">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4 shadow-md rounded-lg">
@@ -69,24 +66,12 @@ const Resourceblog = () => {
           <div className="md:w-3/4 md:pl-6 mt-6 md:mt-0"> <p className="text-blue-600 mt-8 text-xl font-semibold">Startup</p> 
           <h1 className="text-2xl font-bold mt-2"> Design tips for designers that cover everything you need </h1> <p className="text-gray-600 mt-4"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p> </div> </div> </div>
 
-
-
-
-
-
-
-
           <div className="max-w-7xl mx-auto p-6   ">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4 shadow-md rounded-lg">
             <img src="../r1.png" alt="Designers at work" className="rounded-lg p-4" /> </div>
           <div className="md:w-3/4 md:pl-6 mt-6 md:mt-0"> <p className="text-blue-600 mt-8 text-xl font-semibold">Startup</p> 
           <h1 className="text-2xl font-bold mt-2"> Design tips for designers that cover everything you need </h1> <p className="text-gray-600 mt-4"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p> </div> </div> </div>
-
-
-
-
-
 
 
           </section>
