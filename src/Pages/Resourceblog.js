@@ -5,9 +5,9 @@ const Resourceblog = () => {
     <div className="bg-white py-12">
 
       {/* Featured Post Section */}
-      <section className="container max-w-7xl mx-auto px-6 lg:px-20 space-y-12 lg:flex lg:space-x-12">
+      <section className="container max-w-7xl mx-auto p-6 lg:px-20 space-y-12 lg:flex lg:space-x-12">
         {/* Left Side (Text) */}
-        <div className="lg:w-2/3 space-y-6 text-center  max-w-7xl lg:text-left">
+        <div className="lg:w-2/3 space-y-6 text-center   lg:text-left">
           <p className="text-xl font-semibold text-gray-800">Featured Post</p>
           <h2 className="text-3xl lg:text-5xl font-semibold text-gray-800">
             Step-by-step guide to choosing great font pairs
@@ -15,7 +15,7 @@ const Resourceblog = () => {
           <p className="text-lg text-gray-600">
             Talent pool? Try talent ocean. We help navigate that sea of applicants so you can connect faster and hire developers with the skills your team needs to innovate.
           </p>
-          <button className="bg-blue-500 text-white px-6 py-3 max-w-7xl rounded-lg hover:bg-blue-600 transition duration-300">
+          <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
             Read More
           </button>
         </div>
@@ -31,7 +31,7 @@ const Resourceblog = () => {
       </section>
 
       {/* Economy Section */}
-      <section className="bg-gray-100">
+      <section className="bg-gray-100 ">
       <div className="max-w-7xl mx-auto p-6 mt-10  ">
         <h1 className="text-2xl font-bold px-4 py-8" >All Post</h1>
         <div className="flex flex-col md:flex-row">

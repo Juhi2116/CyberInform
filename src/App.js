@@ -14,6 +14,7 @@ import Partner from './Pages/Partner';
 import Releases from './Pages/Releases';
 import Resourcelib from './Pages/Resourcelib';
 import Resourceblog from './Pages/Resourceblog';
+import CardWithForm from './Pages/Card';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/resource/blog" element={<Resourceblog />} />
           <Route path="/resource/partner" element={<Partner />} />
           <Route path="/releases" element={<Releases />} />
+          <Route path="/featured-post" element={<CardWithForm />} />
 
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/pricing" element={<PricingPage />} />
