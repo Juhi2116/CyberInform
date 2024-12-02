@@ -16,6 +16,7 @@ import Resourcelib from './Pages/Resourcelib';
 import Resourceblog from './Pages/Resourceblog';
 import CardWithForm from './Pages/Card';
 import Assessment from './Pages/Assessment';
+import Questions from './Pages/Questions';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/releases" element={<Releases />} />
           <Route path="/featured-post" element={<CardWithForm />} />
           <Route path="/assessment" element={<Assessment />} />
+          <Route path="/real-world-questions" element={<Questions />} />
 
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/pricing" element={<PricingPage />} />
