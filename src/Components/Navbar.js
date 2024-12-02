@@ -99,8 +99,8 @@ export default function Navbar() {
             </PopoverPanel>
           </Popover>
           <a href="/solutions" className="text-sm font-semibold text-gray-900">Solutions</a>
-          <a href="#" className="text-sm font-semibold text-gray-900">Pricing</a>
-          <a href="/contact" className="text-sm font-semibold text-gray-900">Resources</a>
+          <a href="/pricing" className="text-sm font-semibold text-gray-900">Pricing</a>
+          <a href="/resource" className="text-sm font-semibold text-gray-900">Resources</a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-x-4 items-center">
           <Link to="/login" className="text-sm font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></Link>

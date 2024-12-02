@@ -29,7 +29,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/products/interview" element={<Interview />} />
           <Route path="/resource/library" element={<Resourcelib />} />
-          <Route path="/resource/blog" element={<Resourceblog />} />
+          <Route path="/resource" element={<Resourceblog />} />
           <Route path="/resource/partner" element={<Partner />} />
           <Route path="/releases" element={<Releases />} />
           <Route path="/featured-post" element={<CardWithForm />} />
