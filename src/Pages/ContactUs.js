@@ -4,11 +4,11 @@ const ContactUs = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen ">
       {/* Heading Section */}
-      <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold">
+      <div className="text-center mb-8 mt-8">
+        <h1 className="text-4xl font-black">
           Contact <span className="text-blue-600">Us</span>
         </h1>
-        <p className="mt-2 text-gray-600">
+        <p className="mt-2 w-full lg:max-w-4xl">
           Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa
           tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis
           ultricies.

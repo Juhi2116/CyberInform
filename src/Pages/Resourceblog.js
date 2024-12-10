@@ -5,7 +5,7 @@ const Resourceblog = () => {
     <div className="bg-white py-12">
 
       {/* Featured Post Section */}
-      <section className="container max-w-7xl mx-auto p-6 lg:px-20 space-y-12 lg:flex lg:space-x-12">
+      <section className="container max-w-6xl mx-auto p-6  space-y-12 lg:flex lg:space-x-12">
         {/* Left Side (Text) */}
         <div className="lg:w-2/3 space-y-6 text-center   lg:text-left">
           <p className="text-xl font-semibold text-gray-800">Featured Post</p>
@@ -32,7 +32,7 @@ const Resourceblog = () => {
 
       {/* Economy Section */}
       <section className="bg-gray-100 ">
-      <div className="max-w-7xl mx-auto p-6 mt-10  ">
+      <div className="max-w-6xl mx-auto p-6 mt-10  ">
         <h1 className="text-2xl font-bold px-4 py-8" >All Post</h1>
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4 shadow-md rounded-lg">
@@ -41,7 +41,7 @@ const Resourceblog = () => {
           <h1 className="text-2xl font-bold mt-2"> Design tips for designers that cover everything you need </h1> <p className="text-gray-600 mt-4"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p> </div> </div> </div>
 
 
-          <div className="max-w-7xl mx-auto p-6   ">
+          <div className="max-w-6xl mx-auto p-6   ">
    
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4 shadow-md rounded-lg">
@@ -52,21 +52,21 @@ const Resourceblog = () => {
 
 
 
-          <div className="max-w-7xl mx-auto p-6  ">
+          <div className="max-w-6xl mx-auto p-6  ">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4 shadow-md rounded-lg">
             <img src="../r1.png" alt="Designers at work" className="rounded-lg p-4" /> </div>
           <div className="md:w-3/4 md:pl-6 mt-6 md:mt-0"> <p className="text-blue-600 mt-8 text-xl font-semibold">Startup</p> 
           <h1 className="text-2xl font-bold mt-2"> Logo design trends to avoid in 2025 </h1> <p className="text-gray-600 mt-4"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p> </div> </div> </div>
 
-          <div className="max-w-7xl mx-auto p-6   ">
+          <div className="max-w-6xl mx-auto p-6   ">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4 shadow-md rounded-lg">
             <img src="../r1.png" alt="Designers at work" className="rounded-lg p-4" /> </div>
           <div className="md:w-3/4 md:pl-6 mt-6 md:mt-0"> <p className="text-blue-600 mt-8 text-xl font-semibold">Startup</p> 
           <h1 className="text-2xl font-bold mt-2"> Design tips for designers that cover everything you need </h1> <p className="text-gray-600 mt-4"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p> </div> </div> </div>
 
-          <div className="max-w-7xl mx-auto p-6   ">
+          <div className="max-w-6xl mx-auto p-6   ">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4 shadow-md rounded-lg">
             <img src="../r1.png" alt="Designers at work" className="rounded-lg p-4" /> </div>

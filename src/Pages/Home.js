@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="text-center py-5 lg:py-20 bg-white px-4 sm:px-8">
+      <section className="max-w-7xl  p-6 md:p-12 m-auto text-center py-5 lg:py-20 bg-white px-4 sm:px-8">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-black leading-tight mb-4">
           Skills speak louder <br /> than words
         </h1>
@@ -58,7 +58,7 @@ const Home = () => {
       </section>
 
       {/* Training Gap Section */}
-      <div className="text-center py-5 lg:py-16 px-4 bg-white">
+      <div className="text-center py-5 lg:py-16  bg-white max-w-7xl  p-6 md:p-12 m-auto">
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-light text-gray-800 mb-4">
           It's not a talent shortage
         </h1>
@@ -75,7 +75,7 @@ const Home = () => {
 
 {/* <FeatureSection/> */}
       {/* Coding Practice Section */}
-      <div className="bg-blue-600 p-8 md:p-16 rounded-lg flex flex-col md:flex-row items-center max-w-7xl mx-auto text-white space-y-8 md:space-y-0">
+      <div className="bg-blue-600  rounded-lg flex flex-col md:flex-row items-center max-w-6xl  p-6 md:p-12 m-auto text-white space-y-8 md:space-y-0">
         {/* Left Section with Text */}
         <div className="md:w-1/2 text-center md:text-left space-y-4">
           <p className="text-sm font-semibold">:: Coding practice ::</p>
@@ -105,7 +105,7 @@ const Home = () => {
 
       {/* language code */}
       <div className="bg-white text-gray-800 p-6 md:p-12 font-sans">
-        <div className="container mx-auto max-w-7xl">
+        <div className="container mx-auto max-w-6xl">
           {/* Section 1 */}
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12">
             <div className="w-full md:w-1/2">
@@ -211,7 +211,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="font-sans  bg-white max-w-7xl m-auto">
+      <div className="font-sans  bg-white max-w-6xl m-auto">
         {/* White Background Section for Text */}
         <div className="text-center py-8 px-4 sm:px-8">
           <p className="font-semibold text-sm sm:text-base leading-6">
@@ -238,7 +238,7 @@ const Home = () => {
         </div>
       </div>
       <Testimonial/>
-      <div className="flex flex-col md:flex-row justify-between items-center bg-white text-black max-w-7xl m-auto py-10">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-white text-black max-w-6xl m-auto py-10">
         {/* Left Side */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:w-2/3">
           <h2 className="text-2xl sm:text-3xl font-bold">

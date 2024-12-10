@@ -4,7 +4,7 @@ const Solutions = () => {
     return (
         <div>
             {/* Hero Section */}
-            <div className="bg-white flex flex-col items-center max-w-7xl mx-auto p-6 text-center my-10">
+            <div className="bg-white flex flex-col items-center max-w-6xl mx-auto p-6 text-center my-10">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-4">
                     All your ideas in one place
                 </h1>
@@ -28,7 +28,7 @@ const Solutions = () => {
             </div>
 
             {/* Brainstorm Section */}
-            <div className="bg-white">
+            <div className="bg-white max-w-6xl mx-auto p-6">
                 <div className="container mx-auto p-6">
                     {/* Image and Text Row */}
                     <div className="lg:flex lg:space-x-6 items-center">
@@ -101,9 +101,9 @@ const Solutions = () => {
             </div>
 
             {/* Artist & Investor Section */}
-            <div className="flex flex-col md:flex-row items-center justify-between p-4 md:p-8 bg-white">
+            <div className="flex flex-col md:flex-row items-center justify-between p-4 md:p-8 bg-white max-w-6xl mx-auto p-6">
                 {/* Text Section */}
-                <div className="md:w-3/5 max-w-4xl p-6  bg-gray-100 rounded-lg  h-auto ">
+                <div className="md:w-3/5 max-w-6xl p-6  bg-gray-100 rounded-lg  h-auto ">
                     <div className='p-10  max-w-xl'>
                         <h3 className="text-gray-700 font-bold text-lg md:text-xl mt-auto">ARTIST & INVESTOR</h3>
                         <p className="mt-2 text-gray-600 text-sm md:text-base">
@@ -147,7 +147,7 @@ const Solutions = () => {
             <div className="bg-gray-100 rounded-lg max-w-full">
                 <div className="container mx-auto p-6">
                     {/* Image and Text Row */}
-                    <div className="lg:flex lg:space-x-6 max-w-5xl m-auto items-stretch">
+                    <div className="lg:flex lg:space-x-6 max-w-6xl m-auto items-stretch">
                         {/* Left Side - Text */}
                         <div className="lg:w-1/2 flex flex-col justify-between rounded-xl p-6 lg:p-8 ">
                             <div>
