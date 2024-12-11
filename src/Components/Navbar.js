@@ -65,6 +65,11 @@ export default function Navbar() {
               Product
               <ChevronRightIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
             </PopoverButton>
+
+
+
+
+
             <PopoverPanel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-xl rounded-2xl bg-white shadow-md ring-1 ring-gray-900/10 transition-transform duration-150">
               <div className="p-8">
                 {/* Container for Products */}
@@ -106,19 +111,24 @@ export default function Navbar() {
               </div>
             </PopoverPanel>
 
+
+
+
+
+
           </Popover>
-          <Link To="/solutions" className="text-sm font-semibold text-gray-900 flex items-center">
+          <a href="/solutions" className="text-sm font-semibold text-gray-900 flex items-center">
             Solutions
             <ChevronRightIcon className="ml-2 h-4 w-4 text-gray-400" aria-hidden="true" />
-          </Link>
-          <Link To="/pricing" className="text-sm font-semibold text-gray-900 flex items-center">
+          </a>
+          <a href="/pricing" className="text-sm font-semibold text-gray-900 flex items-center">
             Pricing
             <ChevronRightIcon className="ml-2 h-4 w-4 text-gray-400" aria-hidden="true" />
-          </Link>
-          <Link To="/resource" className="text-sm font-semibold text-gray-900 flex items-center">
+          </a>
+          <a href="/resource" className="text-sm font-semibold text-gray-900 flex items-center">
             Resources
             <ChevronRightIcon className="ml-2 h-4 w-4 text-gray-400" aria-hidden="true" />
-          </Link>
+          </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-x-4 items-center">
           <Link to="/login" className="text-sm font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></Link>
@@ -134,10 +144,10 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm ring-1 ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link To="#" className="-m-1.5 p-1.5">
+            <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img alt="" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" className="h-8 w-auto" />
-            </Link>
+            </a>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -168,12 +178,12 @@ export default function Navbar() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                <Link To="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Solutions</Link>
-                <Link To="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Pricing</Link>
-                <Link To="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Resources</Link>
+                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Solutions</a>
+                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Pricing</a>
+                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Resources</a>
               </div>
               <div className="py-6">
-                <Link To="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold text-gray-900 hover:bg-gray-50">Log in</Link>
+                <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
               </div>
             </div>
           </div>
