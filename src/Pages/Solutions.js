@@ -101,7 +101,7 @@ const Solutions = () => {
             </div>
 
             {/* Artist & Investor Section */}
-            <div className="flex flex-col md:flex-row items-center justify-between p-4 md:p-8 bg-white max-w-6xl mx-auto p-6">
+            <div className="flex flex-col md:flex-row items-center justify-between  md:p-8 bg-white max-w-6xl mx-auto p-6">
                 {/* Text Section */}
                 <div className="md:w-3/5 max-w-6xl p-6  bg-gray-100 rounded-lg  h-auto ">
                     <div className='p-10  max-w-xl'>

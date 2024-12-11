@@ -55,37 +55,58 @@ const PricingPage = () => {
                     </div>
 
                     {/* Pro Plan */}
-                    <div className="bg-blue-600 rounded-xl shadow-lg p-6 text-center text-white">
-                        <div className="flex justify-center items-center mb-4">
-                            <div className="w-12 h-12 bg-white rounded-full"></div>
-                        </div>
-                        <h3 className="text-lg font-semibold">For Startups</h3>
-                        <h2 className="text-2xl font-bold mt-2">Pro</h2>
-                        <p className="mt-2">
-                            Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing
-                            elit.
-                        </p>
-                        <p className="text-4xl font-bold mt-4">$199</p>
-                        <p>/monthly</p>
-                        <div className="mt-6 text-left space-y-3">
-                            <p className="flex items-center">
-                                <span className="text-white mr-2">✔</span> All analytics features
-                            </p>
-                            <p className="flex items-center">
-                                <span className="text-white mr-2">✔</span> Up to 250,000 tracked
-                                visits
-                            </p>
-                            <p className="flex items-center">
-                                <span className="text-white mr-2">✔</span> Normal support
-                            </p>
-                            <p className="flex items-center">
-                                <span className="text-white mr-2">✔</span> Up to 3 team members
-                            </p>
-                        </div>
-                        <button className="mt-6 bg-white text-blue-600 px-6 py-2 rounded-lg hover:bg-gray-100">
-                            Join Now
-                        </button>
-                    </div>
+
+
+
+
+
+
+
+                    <div className="bg-blue-600 rounded-xl shadow-lg p-8 text-white">
+
+
+
+  <div className="flex items-center mb-6">
+    <div className="w-16 h-16 flex items-center justify-center bg-white rounded-xl">
+      <svg width="30" height="30" viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0.5" width="18.4865" height="38" fill="#1B4DFF" />
+        <rect x="18.9863" width="19.5135" height="38" fill="#1B4DFF" />
+        <rect x="18.9863" y="18.4863" width="19.5135" height="19.5135" fill="#DCD8FF" />
+      </svg>
+    </div>
+    <div className="ml-4 text-left">
+      <h3 className="text-lg font-semibold">For Startups</h3>
+      <h2 className="text-3xl font-bold mt-1">Pro</h2>
+    </div>
+  </div>
+
+
+
+  <p className="text-left text-sm mb-4">Lorem ipsum dolor sit amet doloroli sitiol consectetur adipiscing elit.</p>
+  <div className="text-left">
+    <p className="text-4xl font-black">$199 <span className="text-sm">/monthly</span></p>
+  </div>
+  <div className="mt-6">
+    <h4 className="text-lg font-semibold mb-3">What’s included</h4>
+    <div className="space-y-3 text-sm">
+      {[
+        "All analytics features",
+        "Up to 250,000 tracked visits",
+        "Normal support",
+        "Up to 3 team members",
+      ].map((feature, index) => (
+        <p key={index} className="flex items-center">
+          <span className="text-blue-800 bg-white w-6 h-6 flex items-center justify-center rounded-full mr-3">✔</span> {feature}
+        </p>
+      ))}
+    </div>
+  </div>
+  <div className="text-left mt-6">
+    <button className="bg-white text-blue-600 px-6 font-bold py-2 rounded-lg hover:bg-gray-100">
+      Join Now
+    </button>
+  </div>
+</div>
 
                     {/* Enterprise Plan */}
                     <div className="bg-gray-100 rounded-xl shadow-lg p-6 text-center">

@@ -71,7 +71,7 @@ export default function Navbar() {
                 <div className="flex">
                   {/* Product Section */}
                   <div className="flex-1 pr-8 border-r border-gray-200">
-                    <h2 className="text-gray-300 text-lg font-semibold mb-6">Product</h2>
+                    <Link to="/products" className="text-gray-300 text-lg font-semibold mb-6">Product</Link>
                     <div className="space-y-6">
                       <div>
                         <h3 className="text-gray-800 font-semibold text-base">Screen</h3>
@@ -107,15 +107,15 @@ export default function Navbar() {
             </PopoverPanel>
 
           </Popover>
-          <Link To="/solutions" className="text-sm font-semibold text-gray-900 flex items-center">
+          <Link to="/Solutions" className="text-sm font-semibold text-gray-900 flex items-center">
             Solutions
             <ChevronRightIcon className="ml-2 h-4 w-4 text-gray-400" aria-hidden="true" />
           </Link>
-          <Link To="/pricing" className="text-sm font-semibold text-gray-900 flex items-center">
+          <Link to="/Pricing" className="text-sm font-semibold text-gray-900 flex items-center">
             Pricing
             <ChevronRightIcon className="ml-2 h-4 w-4 text-gray-400" aria-hidden="true" />
           </Link>
-          <Link To="/resource" className="text-sm font-semibold text-gray-900 flex items-center">
+          <Link to="/resource" className="text-sm font-semibold text-gray-900 flex items-center">
             Resources
             <ChevronRightIcon className="ml-2 h-4 w-4 text-gray-400" aria-hidden="true" />
           </Link>
