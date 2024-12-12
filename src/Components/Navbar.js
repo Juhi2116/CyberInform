@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img alt="" src="./logo.svg" className="h-20 w-20" />
+            <img alt="" src="./Logo.svg" className="h-20 w-20" />
           </Link>
         </div>
         <div className="flex lg:hidden">
