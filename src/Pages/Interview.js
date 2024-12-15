@@ -5,7 +5,7 @@ const Interview = () => {
     return (
         <div className="bg-white">
             {/* Section Wrapper */}
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto  px-4 sm:px-8">
+            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-6xl mx-auto mt-10 ">
                 {/* Text Section */}
                 <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
                     <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
@@ -19,7 +19,7 @@ const Interview = () => {
                     </p>
                     <div className="flex justify-center gap-4">
 
-                        <button className="px-6 sm:px-8 py-3 w-fit bg-transparent text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white">
+                        <button className="px-6 sm:px-8 py-3 w-fit hover:bg-transparent hover:text-blue-600 border border-blue-600 rounded-lg bg-blue-600 text-white">
                             Get a Demo
                         </button>
                     </div>
@@ -39,7 +39,7 @@ const Interview = () => {
 
 
             {/* Fairness Built Section */}
-            <div className="bg-blue-600 text-white py-10 relative rounded-xl mb-40 max-w-7xl mx-auto px-4 sm:px-8">
+            <div className="bg-blue-600 text-white py-10 relative rounded-xl mb-40 max-w-6xl mx-auto px-4 sm:px-8 hidden md:block">
                 <div className="container mx-auto px-4 text-center relative z-10">
                     <h1 className="text-3xl md:text-4xl font-bold">
                         One workspace. Boundless possibilities.                    </h1>
@@ -110,7 +110,7 @@ const Interview = () => {
             </div>
 
             {/* Easy to Use Section */}
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto px-4 sm:px-8">
+            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-6xl mx-auto ">
                 <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-800">
                         <span className="block mb-4">Set your developers</span>
@@ -130,7 +130,7 @@ const Interview = () => {
             </div>
 
             {/* Find Skills Section */}
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto   px-4 sm:px-8">
+            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-6xl mx-auto ">
                 <div className="w-full md:w-1/2">
                     <img
                         src="../Fr2.png"
@@ -150,7 +150,7 @@ const Interview = () => {
             </div>
 
             {/* University Hiring Section */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-12 max-w-7xl mx-auto  px-4 sm:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-12 max-w-6xl mx-auto  px-4 sm:px-8">
                 <div className="flex flex-col justify-center text-center md:text-left space-y-4">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl block mb-4 font-light text-gray-800 leading-loose">
                         <span className="text-blue-600">Start hiring</span> with <br />
@@ -174,7 +174,7 @@ const Interview = () => {
             </div>
 
             {/* Resources Section */}
-            <div className="bg-white max-w-7xl mx-auto py-5  px-4 sm:px-8">
+            <div className="bg-white max-w-6xl mx-auto py-5  px-4 sm:px-8">
                 <div className="text-center">
                     <h1 className="text-3xl text-gray-900 sm:text-4xl">
                         Resources

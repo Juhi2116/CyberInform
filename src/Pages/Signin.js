@@ -27,12 +27,12 @@ function SignIn() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-600 flex justify-center items-center  m-5 ">
-      <div className="flex w-full max-w-4xl bg-white rounded-lg shadow-lg overflow-hidden">
+    <div className="min-h-screen bg-blue-600 flex justify-center items-center  mt-12 mb-12 ">
+      <div className="flex w-full max-w-6xl bg-white rounded-lg shadow-lg overflow-hidden">
         
         {/* Left side: Logo, welcome message, and banner */}
-        <div className="w-1/2 p-8 flex flex-col items-center justify-center space-y-4 bg-blue-50">
-          <img src="../logo.svg" alt="Cyberinfomines Logo" className="w-32 mb-4" />
+        <div className="w-1/2 flex flex-col items-center justify-center space-y-4">
+          <img src="../logo.svg" alt="Cyberinfomines Logo"  className="w-32 mb-4 mt-4" />
           <h2 className="text-blue-600 text-xl font-bold">Welcome to</h2>
           <h1 className="text-blue-600 text-3xl font-bold">Cyberinfomines</h1>
           <img src="../Frame 39568.png" alt="Banner" className="mt-4" />

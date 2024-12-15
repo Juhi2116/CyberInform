@@ -16,7 +16,7 @@ const Partner = () => {
       </button>
 
       {/* Logos Section */}
-      <div className="mt-8">
+      <div className="mt-8 max-w-6xl m-auto">
         <h2 className="text-2xl font-semibold text-gray-700">
           Our Trusted Partners
         </h2>
@@ -43,7 +43,7 @@ const Partner = () => {
             to scoring.
           </p>
         </div>
-        <div className="mt-12 grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl m-auto">
           <div className="bg-white rounded-xl shadow-lg p-6 text-center">
             <img src="/p1.png" alt="Icon" className="w-32 md:w-40 h-32 md:h-40 mx-auto mb-6 md:mb-8" />
             <p className="text-gray-700 text-sm">
@@ -78,7 +78,7 @@ const Partner = () => {
 
 
 
-      <div className="mt-16 px-20">
+      <div className="mt-16 max-w-6xl m-auto">
   <h2 className="text-3xl font-semibold text-gray-900 text-center">
     Technology Partners
   </h2>

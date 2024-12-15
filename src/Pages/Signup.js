@@ -34,19 +34,19 @@ function SignUpPage() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-600 flex justify-center items-center">
-      <div className="w-full max-w-4xl bg-white rounded-lg shadow-lg overflow-hidden flex">
+    <div className="min-h-screen bg-blue-600 flex justify-center items-center p-4 mb-12 mt-12">
+      <div className="w-full max-w-6xl bg-white rounded-lg shadow-lg overflow-hidden flex">
         
         {/* Left side: Logo, welcome message, and banner */}
-        <div className="w-1/2 p-6 flex flex-col items-center justify-center space-y-4 bg-white">
-          <img src="../logo.svg" alt="Cyberinfomines Logo" className="w-32 mb-4" />
+        <div className="w-1/2 flex flex-col items-center justify-center space-y-4 mt-28">
+          <img src="../logo.svg" alt="Cyberinfomines Logo"  className="w-32 mb-4 mt-4" />
           <h2 className="text-blue-600 text-xl font-bold">Welcome to</h2>
           <h1 className="text-blue-600 text-3xl font-bold">Cyberinfomines</h1>
           <img src="../Frame 39568.png" alt="Banner" className="mt-4" />
         </div>
 
         {/* Right side: Sign-up form */}
-        <div className="w-1/2 p-8">
+        <div className="w-full md:w-1/2 p-8">
           <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
           <form onSubmit={handleSignup}>
             <div className="mb-4">

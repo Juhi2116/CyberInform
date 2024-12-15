@@ -78,8 +78,8 @@ export default function Navbar() {
                         <p className="text-gray-600 text-sm">Save time and accelerate your hiring.</p>
                       </div>
                       <div>
-                        <h3 className="text-gray-800 font-semibold text-base">Interview</h3>
-                        <p className="text-gray-600 text-sm">Conduct stellar technical interviews.</p>
+                        <Link to="/interview" className="text-gray-800 font-semibold text-base">Interview</Link><br></br>
+                        <Link to="/interview" className="text-gray-600 text-sm">Conduct stellar technical interviews.</Link>
                       </div>
                     </div>
                   </div>

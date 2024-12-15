@@ -2,16 +2,16 @@ import React from 'react';
 
 const Assessment = () => {
     return (
-        <div className="bg-white">
+        <div className="bg-white max-w-6xl m-auto">
             {/* Section Wrapper */}
             <div className="flex flex-col md:flex-row items-center md:gap-12 mb-12 max-w-7xl mx-auto p-6 sm:px-8">
                 {/* Text Section */}
-                <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-blue-600 leading-tight">
+                <div className="md:w-1/2 flex flex-col items-center md:items-start  space-y-4">
+                    <h2 className="text-4xl sm:text-2xl md:text-5xl font-extrabold text-blue-600 leading-tight">
                         <span className="text-gray-900">Standardize your hiring with</span> <br />
                         trusted certified assessments
                     </h2>
-                    <p className="text-lg font-bold text-gray-700 mt-4">
+                    <p className="text-sm lg:text-lg font-bold text-gray-700 mt-4">
                         75% of devs think technical interviews are broken. Swap your shared docs and split screens for a fully-functioning IDE that gives developers the tools to show off their hard and soft skills in a real-world environment.
                     </p>
                     <div className="flex justify-center gap-4">

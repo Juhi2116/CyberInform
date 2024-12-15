@@ -6,10 +6,10 @@ const Questions = () => {
     return (
         <div className="bg-white">
             {/* Section Wrapper */}
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto  px-4 sm:px-8">
+            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-6xl mx-auto  px-4 sm:px-8">
                 {/* Text Section */}
                 <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mt-6">
                         Work isn’t
                         <span className="text-blue-600"> <br/>multiple choice</span> <br />
                         Your hiring <br />
@@ -40,7 +40,7 @@ const Questions = () => {
 
 
             {/* Fairness Built Section */}
-            <div className="bg-blue-600 text-white py-10 relative rounded-xl mb-40 max-w-7xl mx-auto px-4 sm:px-8">
+            <div className="bg-blue-600 text-white py-10 relative rounded-xl mb-40 max-w-6xl mx-auto px-4 ">
                 <div className="container mx-auto px-4 text-center relative z-10">
                     <h1 className="text-3xl md:text-4xl font-bold">
                         Hire the right devs for your
@@ -51,8 +51,8 @@ const Questions = () => {
                 </div>
 
                 {/* Cards Section */}
-                <div className="relative mt-10 ml-10 mr-10 mb-20 ">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto px-4 absolute w-full left-0 -bottom-18">
+                <div className="relative mt-10 ml-10 mr-10 mb-20">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container  absolute max-w-6xl mx-auto px-4 left-0 -bottom-18">
                         {[...Array(3)].map((_, index) => (
                             <div
                                 key={index}
@@ -93,7 +93,7 @@ const Questions = () => {
             </div>
 
             {/* Easy to Use Section */}
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto px-4 sm:px-8">
+            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-6xl mx-auto px-4 sm:px-8">
                 <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-blue-600">
                         <span className="block mb-4">Test skills</span>
@@ -112,7 +112,7 @@ const Questions = () => {
             </div>
 
             {/* Find Skills Section */}
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-7xl mx-auto   px-4 sm:px-8">
+            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-12 max-w-6xl mx-auto   px-4 sm:px-8">
                 <div className="w-full md:w-1/2">
                     <img
                         src="../ques2.png"
@@ -135,7 +135,7 @@ const Questions = () => {
 
             {/* Innovation Section */}
             <div className="flex items-center max-w-full justify-center bg-gray-100 mt-5">
-                <div className="text-center p-12 max-w-7xl">
+                <div className="text-center p-12 max-w-6xl">
                     <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-gray-900">
                         We know developer skills like nobody’s business                  </h1>
                     <p className=" font-light mt-4 mb-6 text-gray-800">
@@ -155,7 +155,7 @@ const Questions = () => {
 
 
             {/* Resources Section */}
-            <div className="bg-white max-w-7xl mx-auto py-5  px-4 sm:px-8">
+            <div className="bg-white max-w-6xl mx-auto py-5  px-4 sm:px-8">
                 <div className="text-center">
                     <h1 className="text-3xl text-gray-900 sm:text-4xl">
                         Resources
