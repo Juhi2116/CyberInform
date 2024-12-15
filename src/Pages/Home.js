@@ -212,7 +212,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="font-sans  bg-white max-w-6xl m-auto">
+      <div className="font-sans  bg-white max-w-6xl m-auto mb-8">
         {/* White Background Section for Text */}
         <div className="text-center py-8 px-4 sm:px-8">
           <p className="font-semibold text-sm sm:text-base leading-6">

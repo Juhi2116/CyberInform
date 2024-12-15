@@ -57,7 +57,7 @@ const TestimonialCarousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     // prevArrow: <img src="../left.png" className="w-full h-full"  />,
     // nextArrow: <img src="../right.png" className="w-full h-full" />,
   };
