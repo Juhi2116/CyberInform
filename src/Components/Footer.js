@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <div className="flex flex-col items-center md:items-start">
             <img
-              src="../logo.svg"
+              src="./Logo.svg"
               alt="Cyberinfomines Technology Logo"
               className="w-28 mb-4"
             />
@@ -106,11 +106,11 @@ const Footer = () => {
             Until recently, the prevailing view assumed lorem ipsum was born as
             a nonsense text.
           </p>
-          <form className="flex flex-col md:flex-row space-y-4  justify-center md:space-y-0 md:space-x-4 items-center md:items-start">
+          <form className="lg:flex flex-wrap flex-col md:flex-row space-y-4  justify-center md:space-y-0 md:space-x-4 items-center md:items-start ">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-2 bg-white text-black border  border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="flex-1 px-4 py-2 bg-white text-black border  border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-[200px]"
             />
             <button
               type="submit"

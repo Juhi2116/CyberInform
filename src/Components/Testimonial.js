@@ -58,17 +58,17 @@ const TestimonialCarousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    prevArrow: <img src="../left.png" className="w-full h-full"  />,
-    nextArrow: <img src="../right.png" className="w-full h-full" />,
+    // prevArrow: <img src="../left.png" className="w-full h-full"  />,
+    // nextArrow: <img src="../right.png" className="w-full h-full" />,
   };
 
   return (
     <div className="bg-gray-100 py-10">
            <div className="text-center py-8 px-4 sm:px-8">
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tyext-center">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-4">
         What other <span className="text-blue-500">users say</span>
       </h2></div>
-      <div className="max-w-2xl mx-auto relative">
+      <div className="max-w-xl mx-auto relative">
         <Slider {...settings}>
           {testimonials.map((testimonial) => (
             <div

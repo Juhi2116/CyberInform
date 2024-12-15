@@ -27,7 +27,7 @@ function SignIn() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-600 flex justify-center items-center">
+    <div className="min-h-screen bg-blue-600 flex justify-center items-center  m-5 ">
       <div className="flex w-full max-w-4xl bg-white rounded-lg shadow-lg overflow-hidden">
         
         {/* Left side: Logo, welcome message, and banner */}

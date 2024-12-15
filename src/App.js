@@ -21,7 +21,7 @@ import Questions from './Pages/Questions';
 
 function App() {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden'>
       <Router>
         <Navbar/>
         <Routes>

@@ -2,6 +2,7 @@ import React from "react";
 import Logo from '../Components/Logo';
 import Testimonial from "../Components/Testimonial";
 import FeatureSection from "../Components/FeatureSection";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
 
         {/* Right Section with Text */}
         <div className="md:w-1/2 text-center md:text-left space-y-4 py-5">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl ">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl cyberText">
             Watch Our Courses
           </h1>
           <p className="text-base sm:text-lg text-gray-600">
@@ -192,12 +193,12 @@ const Home = () => {
                 data-driven decisions that help level the playing field for
                 developers everywhere.
               </p>
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="text-lg font-semibold text-blue-500 hover:underline"
               >
                 Learn More →
-              </a>
+              </Link>
             </div>
 
             {/* Right Section */}
@@ -217,7 +218,7 @@ const Home = () => {
           <p className="font-semibold text-sm sm:text-base leading-6">
             :: Technical interviews ::
           </p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-4">
             Interview like it's <span className="text-blue-600">2024</span>
           </h1>
           <p className="mt-2 text-sm sm:text-base md:text-lg leading-normal max-w-5xl mx-auto">
@@ -238,9 +239,9 @@ const Home = () => {
         </div>
       </div>
       <Testimonial/>
-      <div className="flex flex-col md:flex-row justify-between items-center bg-white text-black max-w-6xl m-auto py-10">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-white text-black max-w-6xl m-auto">
         {/* Left Side */}
-        <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:w-2/3">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:w-2/3 p-10">
           <h2 className="text-2xl sm:text-3xl font-bold">
             Practice coding challenges &{" "}
             <span className="text-blue-500">prep for interviews</span>
